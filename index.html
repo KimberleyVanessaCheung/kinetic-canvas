@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinetic Canvas - AI Hand Tracking Art Installation</title>
+    
+    <!-- p5.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    
+    <!-- ml5.js Library for AI Hand Tracking -->
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="info-panel">
+        <h1>Kinetic Canvas</h1>
+        <p class="subtitle">Human Augmentation through AI</p>
+        <div id="instructions">
+            <p>🖐️ Point your index finger at the camera</p>
+            <p>✨ Move your hand to paint in the air</p>
+            <p>🎨 Create art with your gestures</p>
+        </div>
+        <div id="controls">
+            <button id="clearBtn">Clear Canvas</button>
+            <button id="toggleTrailBtn">Toggle Trail Effect</button>
+            <button id="toggleVideoBtn">Show/Hide Camera</button>
+            <select id="colorPicker">
+                <option value="cyan">Neon Cyan</option>
+                <option value="magenta">Neon Magenta</option>
+                <option value="yellow">Neon Yellow</option>
+                <option value="green">Neon Green</option>
+                <option value="rainbow">Rainbow</option>
+            </select>
+        </div>
+        <div id="status">
+            <p id="statusText">Initializing AI model...</p>
+        </div>
+    </div>
+    
+    <script src="sketch.js"></script>
+</body>
+</html>
+
