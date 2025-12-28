@@ -7,7 +7,7 @@
 
 Kinetic Canvas transforms your hand into a precision digital brush using AI and computer vision. Visitors paint trails of light, geometry, and color in the air using only their gestures—no physical tools required.
 
-This project demonstrates how AI can augment human creativity and provide accessible art-making tools for people with limited motor skills or those who cannot hold traditional brushes.
+This project explores positive human augmentation: using AI to amplify natural human capabilities, enhance creative expression, and make art-making more intuitive and accessible for everyone—from professional artists seeking new mediums to individuals exploring movement-based creativity.
 
 ## 🚀 Quick Start
 
